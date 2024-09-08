@@ -39,7 +39,16 @@ export default [
       'import/no-named-as-default-member': 'off',
       'no-console': 'off',
       'import/no-extraneous-dependencies': 'off',
+      
+      // Adding no-restricted-syntax to allow for...in and for...of
+      'no-restricted-syntax': [
+        'error',
+        {
+          selector: 'WithStatement',
+          message: 'with is not allowed',
+        },
+        // Allow for...of and for...in loops
+      ],
     },
   },
-
 ];

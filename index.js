@@ -14,6 +14,10 @@
 // console.log(result1);
 // console.log(result2);
 
-import sayPrimeOrNot from './src/functions2.js';
+// import sayPrimeOrNot from './src/functions2.js';
 
-sayPrimeOrNot(9);
+// sayPrimeOrNot(9);
+
+import scrabble from "./src/objectsChallengeSrabble.js";
+
+console.log(scrabble('plupalenacheck', 'lapulechka'));
