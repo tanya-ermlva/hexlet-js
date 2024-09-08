@@ -20,4 +20,5 @@
 
 import scrabble from "./src/objectsChallengeSrabble.js";
 
-console.log(scrabble('plupalenacheck', 'lapulechka'));
+
+
