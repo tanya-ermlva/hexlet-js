@@ -18,7 +18,16 @@
 
 // sayPrimeOrNot(9);
 
-import scrabble from "./src/objectsChallengeSrabble.js";
+// import scrabble from "./src/objectsChallengeSrabble.js";
 
+import dnaToRna from "./src/objectsChallengeDnaToRna.js";
 
+const dnaToRnaMap = {
+    G: 'C',
+    C: 'G',
+    T: 'A',
+    A: 'U',
+  };
 
+const input = 'ACNTG';
+console.log(input, dnaToRna(input, dnaToRnaMap));
